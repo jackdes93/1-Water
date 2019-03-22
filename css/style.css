@@ -5,8 +5,12 @@ p { font-weight: 400;}
 a { text-decoration: none; }
 h3 { font-weight: 900;}
 img { width: 100%; height: 100%;}
+ul { list-style: none;}
+.title-form { display:flex; align-items: center; justify-content: center; margin-bottom: 5px;}
+.flex-column { flex-direction: column !important; align-items: center; justify-content: space-between;}
+.flex-row { flex-direction: row !important;}
 .primary-color-text { color: #FFF;}
-.second-color-text { color: #FBBC05;}
+.second-color-text { color: #21B6FF;}
 .text-left { text-align: left;}
 .text-center { text-align: center;}
 .text-uppercase { text-transform: uppercase;}
@@ -22,6 +26,37 @@ img { width: 100%; height: 100%;}
 .navbar { display: flex; flex-direction: row; align-items: center; justify-content: center; width: 100%; height: inherit; padding: 0 15px;}
 .box-logo, .btn-menu { display: flex; height: 48px; align-items: center; justify-content: center;}
 .box-logo { flex: 7;}
-.box-logo .logo { font-size: 1.8em; font-family: 'Merriweather', sans-serif; font-weight: 900; letter-spacing: 2px; }
+.box-logo .logo { font-size: 2.2em; font-family: 'Merriweather', sans-serif; font-weight: 900; letter-spacing: 2px; }
 .btn-menu { flex: 1; }
 .btn-menu .fa-bars { font-size: 32px;}
+.box-banner { background:  url('../image/water_separator.jpg'); background-size: contain; background-position: top; height: auto; overflow: hidden; background-repeat: no-repeat;}
+.box-delivery { display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; padding: 15px 0;}
+.box-intro { display: flex; flex-direction: column; align-items: flex-start; justify-content: space-around;}
+.box-intro .heading { flex: 1; padding: 10px 0; }
+.heading h3 { font-size: 2.2em; letter-spacing: 2px; word-wrap: break-word; font-family: 'Merriweather'; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); width: 75%;}
+.heading span { font-weight: 900; font-size: 1em; font-family: 'Merriweather'; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);}
+.content { display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; }
+.content .intro-text { font-weight: 400; line-height: 24px; padding: 8px 0;}
+.check-list { display: flex; flex: 1; flex-direction: column; justify-content: space-around; align-items: flex-start; margin: 8px 0;}
+.check-list li { display: inline-block; width: 100%; line-height: 18px; margin: 0 0 10px 0;}
+.check-list li p { font-weight: 700; font-size: 16px;}
+.check-list p span { padding: 0 15px 0 0;}
+.check-list .fa-check { color: #6EC528; font-weight: 700; font-size: 16px;}
+.form { display: flex; overflow: auto; flex-direction: column;}
+.form-group { display: flex; flex-direction: row; align-items: flex-start; justify-content: space-between; padding: 5px;}
+.form-order { background: #FFF; border-radius: 10px; padding: 10px;}
+.form-group input[name="Phone"] { width: 100%; border: 1px solid lightgray; padding: 10px; border-radius: 10px; color: #000; text-align: center;}
+.form-group input[name="Phone"]:focus { border: 1px solid #21B6FF; outline: none;}
+.title-note { color: #000; display: flex; flex: 1; font-size: 14px; font-style: italic;}
+.box-product { display: flex; flex-direction: column; justify-content: space-around; align-items: flex-start;margin: 10px 0;}
+.box-product:focus { border: 1px solid #21B6FF; outline: none;}
+.box-img { display: flex; flex-direction: column; width: 100%; height: auto; min-height: 150px; background: #21B6FF;}
+.box-content { display: flex; flex-direction: column; width: 100%; height: auto; background: #FFF;}
+.box-content .label { display: flex; flex: 1; justify-content: center; align-items: center; padding: 8px 0;}
+.box-content p { text-align: center; color: #000; font-weight: 700;}
+.box-amount { display: flex; flex-direction: row; justify-content: center; align-items: center;  width: 50%; margin: 0 auto;}
+.sub, .add { width: 36px; height: 36px; display: flex; justify-content: center; align-items: center; background: #FFF; border: 1px solid #ccc;}
+.sub strong, .add strong { color: #000 !important; font-size: 20px; font-weight: 900; }
+.box-value{ width: 48px; height: 36px; display: flex; justify-content: center; align-items: center; font-size: 18px; color: #000; border: 1px solid #DDD; font-weight: 900;} 
+.btn-submit { width: 50%; display: flex; border-radius: 20px; height: 48px; justify-content: center; align-items: center;}
+.btn-submit:hover { border: 2px solid #21B6FF; background: #FFF; color: #002C8F; font-weight: 700; box-shadow: 0 0 3px rgba(0, 44, 143, 0.65); }
