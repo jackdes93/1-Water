@@ -1,12 +1,22 @@
-* {
-    margin: 0; padding: 0;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    text-decoration: none;
-    color: #FFF;
-}
+* { margin: 0; padding: 0; font-family: "Open Sans", sans-serif; font-weight: 400; font-size: 14px; text-decoration: none; color: #FFF;}
+*, *::before, *::after { box-sizing: border-box;}
 div { display: block; box-sizing: border-box;}
-.primary-background-color { background: #112c91;}
-.container { overflow: auto; width: 100%; max-width: 1200px; position: relative;}
+p { font-weight: 400;}
+a { text-decoration: none; }
+h3 { font-weight: 900;}
+img { width: 100%; height: 100%;}
+.primary-color-text { color: #FFF;}
+.second-color-text { color: #FBBC05;}
+.text-left { text-align: left;}
+.text-center { text-align: center;}
+.text-uppercase { text-transform: uppercase;}
+.primary-background-color { background: #112C91;}
+.primary-background-btn { background: #21B6FF;}
+.legacy-background-btn { background: #002C8F;}
+.container { overflow: auto; width: 100%; position: relative;}
 .wrap-container { position: relative; width: 100%; height: auto; }
+.row, .box { display: inline-block; overflow: auto; width: 100%; margin: 0 auto;}
+.form-group { width: 100%; box-sizing: border-box; margin-bottom: 10px; display: flex; flex-direction: row; justify-content: space-between; align-items: center;}
+.btn { display: block; width: 100%; height: 36px; margin: 0 auto; color: #FFF; border: none;}
+.nav {display: flex; flex-direction: row; height: 56px; max-width: 1200px; position: relative; margin: 0 auto;}
+.navbar { display: flex; flex-direction: row;}
