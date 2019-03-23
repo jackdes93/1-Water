@@ -14,6 +14,7 @@ ul { list-style: none;}
 .text-left { text-align: left;}
 .text-center { text-align: center;}
 .text-uppercase { text-transform: uppercase;}
+.text-small { color: #FFF !important; font-size: 16px; font-weight: 400;}
 .primary-background-color { background: #112C91;}
 .primary-background-btn { background: #21B6FF;}
 .legacy-background-btn { background: #002C8F;}
@@ -29,7 +30,7 @@ ul { list-style: none;}
 .box-logo .logo { font-size: 2.2em; font-family: 'Merriweather', sans-serif; font-weight: 900; letter-spacing: 2px; }
 .btn-menu { flex: 1; }
 .btn-menu .fa-bars { font-size: 32px;}
-.box-banner { background:  url('../image/water_separator.jpg'); background-size: contain; background-position: top; height: auto; overflow: hidden; background-repeat: no-repeat;}
+.box-banner { background:  url('../image/water_separator.jpg'); background-size: contain; background-position: top; height: auto; overflow: hidden; background-repeat: no-repeat; margin: 10px 0; padding: 15px 0;}
 .box-delivery { display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; padding: 15px 0;}
 .box-intro { display: flex; flex-direction: column; align-items: flex-start; justify-content: space-around;}
 .box-intro .heading { flex: 1; padding: 10px 0; }
@@ -50,13 +51,16 @@ ul { list-style: none;}
 .title-note { color: #000; display: flex; flex: 1; font-size: 14px; font-style: italic;}
 .box-product { display: flex; flex-direction: column; justify-content: space-around; align-items: flex-start;margin: 10px 0;}
 .box-product:focus { border: 1px solid #21B6FF; outline: none;}
-.box-img { display: flex; flex-direction: column; width: 100%; height: auto; min-height: 150px; background: #21B6FF;}
-.box-content { display: flex; flex-direction: column; width: 100%; height: auto; background: #FFF;}
+.box-img { display: flex; flex-direction: column; width: 100%; height: auto; min-height: 150px;}
+.box-content { display: flex; flex-direction: column; width: 100%; height: auto;}
 .box-content .label { display: flex; flex: 1; justify-content: center; align-items: center; padding: 8px 0;}
-.box-content p { text-align: center; color: #000; font-weight: 700;}
+.box-content .title-text-product { text-align: center; color: #000; font-weight: 700;}
 .box-amount { display: flex; flex-direction: row; justify-content: center; align-items: center;  width: 50%; margin: 0 auto;}
 .sub, .add { width: 36px; height: 36px; display: flex; justify-content: center; align-items: center; background: #FFF; border: 1px solid #ccc;}
 .sub strong, .add strong { color: #000 !important; font-size: 20px; font-weight: 900; }
 .box-value{ width: 48px; height: 36px; display: flex; justify-content: center; align-items: center; font-size: 18px; color: #000; border: 1px solid #DDD; font-weight: 900;} 
 .btn-submit { width: 50%; display: flex; border-radius: 20px; height: 48px; justify-content: center; align-items: center;}
 .btn-submit:hover { border: 2px solid #21B6FF; background: #FFF; color: #002C8F; font-weight: 700; box-shadow: 0 0 3px rgba(0, 44, 143, 0.65); }
+.box-heading { display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; height: auto; margin-bottom: 15px; padding-bottom: 15px; background: url('../image/heading-bg.png'); background-repeat: no-repeat; background-position: bottom; }
+.sub-header { font-weight: 600; font-size: 18px; letter-spacing: 2px;}
+.header-title { font-weight: 900; font-size: 30px; font-family: 'Merriweather', sans-serif; letter-spacing: 2px; padding-bottom: 5px;}
