@@ -1,4 +1,6 @@
 var btn_scroll = document.getElementById("block-btn-scroll");
+var select_box = document.getElementById("field-value");
+
 window.onload = function() {
     btn_scroll.addEventListener("click", function() {
         window.scroll({
@@ -6,6 +8,13 @@ window.onload = function() {
             behavior: 'smooth'
         });
          
+    });
+
+    select_box.addEventListener("click", function() {
+        var list_select = document.getElementById('list-select');        
+        console.log(list_select.classList);
+        
+        
     });
     
     window.addEventListener('scroll', function() {
