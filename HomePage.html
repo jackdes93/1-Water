@@ -16,8 +16,7 @@
             <nav class="navbar">
                 <div class="box box-logo">
                     <a href="#" class="logo">
-                        <strong style="font-size:1.2em; font-family: 'Merriweather';">1</strong> WATER
-                        <!-- <img src="" alt="Logo 1 Water"> -->
+                        <img src="/image/1water.png" alt="Logo 1 Water">
                     </a>
                 </div>
                 <!-- <div class="box btn-menu">
@@ -38,13 +37,13 @@
                             <div class="content">
                                 <ul class="check-list">
                                     <li>
-                                        <p class="second-color-text"><span class="fas fa-check"></span>Giao trong 2 tiếng.</p>
+                                        <p class="second-color-text text-shadow"><span class="fas fa-tint"></span>Giao trong 2 tiếng.</p>
                                     </li>
                                     <li>
-                                        <p class="second-color-text"><span class="fas fa-check"></span>Miễn phí 2 sản phẩm đầu tiên.</p>
+                                        <p class="second-color-text text-shadow"><span class="fas fa-tint"></span>Miễn phí 2 sản phẩm đầu tiên.</p>
                                     </li>
                                     <li>
-                                        <p class="second-color-text"><span class="fas fa-check" ></span>Phục vụ 7 ngày/tuần từ 6:00 - 18:00.</p>
+                                        <p class="second-color-text text-shadow"><span class="fas fa-tint"></span>Phục vụ 7 ngày/tuần từ 6:00 - 18:00.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -66,19 +65,11 @@
                                             <img src="image/Bottle-Water.png" alt="Bình nước khoáng 20L" >
                                         </div>
                                         <div class="box-content">
-                                            <div class="select-box">
-                                                <div class="field-value" >
-                                                    <input type="text" placeholder="Chọn sản phẩm ..." id="field-value">
-                                                </div>
-                                                <ul id="list-select">
-                                                    <i class="item-select">
-                                                        <p class="text-label">Bình Nước 20 Lít</p>
-                                                    </i>
-                                                    <i class="item-select">
-                                                        <p class="text-label">Bình Nước 19 Lít</p>
-                                                    </i>
-                                                </ul>
-                                            </div>
+                                            <select name="Product" id="select-box">
+                                                <option value="0" selected>Vui lòng chọn sản phẩm</option>
+                                                <option value="1">Bình Nước 19 Lít</option>
+                                                <option value="2">Bình Nước 20 Lít</option>
+                                            </select>
                                             <div class="box-amount">
                                                 <div class="sub"><strong>-</strong></div>
                                                 <div class="box-value">1</div>
@@ -104,19 +95,19 @@
                                     <h3 class=" second-color-text"> Nền Tảng</h3>
                                     <h3>Gọi Nước Trực Tuyến</h3>
                                 </div>
-                            <div class="content">
-                                <ul class="check-list">
-                                    <li>
-                                        <p class="second-color-text"><span class="fas fa-check"></span>Giao trong 2 tiếng.</p>
-                                    </li>
-                                    <li>
-                                        <p class="second-color-text"><span class="fas fa-check"></span>Miễn phí 2 sản phẩm đầu tiên.</p>
-                                    </li>
-                                    <li>
-                                        <p class="second-color-text"><span class="fas fa-check" ></span>Phục vụ 7 ngày/tuần từ 6:00 - 18:00.</p>
-                                    </li>
-                                </ul>
-                            </div>
+                                <div class="content">
+                                    <ul class="check-list">
+                                        <li>
+                                            <p class="second-color-text text-shadow"><span class="fas fa-tint"></span>Giao trong 2 tiếng.</p>
+                                        </li>
+                                        <li>
+                                            <p class="second-color-text text-shadow"><span class="fas fa-tint"></span>Miễn phí 2 sản phẩm đầu tiên.</p>
+                                        </li>
+                                        <li>
+                                            <p class="second-color-text text-shadow"><span class="fas fa-tint"></span>Phục vụ 7 ngày/tuần từ 6:00 - 18:00.</p>
+                                        </li>
+                                    </ul>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -165,7 +156,7 @@
                         </div>
                         <div class="form-group flex-column">
                             <input type="text" name="Email" placeholder="Nhập số điện thoại của bạn.." id="">
-                            <button class="btn btn-subscribe legacy-background-btn" name="Subscribe">Nhận Tin</button>
+                            <button class="btn btn-subscribe legacy-background-btn" name="Subscribe">Quan Tâm</button>
                         </div>
                     </form>
                 </div>
@@ -176,8 +167,7 @@
                     <div class="logo-block-footer">
                         <div class="box box-logo">
                             <a href="#" class="logo">
-                                <strong style="font-size:1.2em; font-family: 'Merriweather';">1</strong> WATER
-                                <!-- <img src="" alt="Logo 1 Water"> -->
+                                <img src="/image/1water.png" alt="Logo 1 Water">
                             </a>
                         </div>
                         <div class="box-slogan">
@@ -185,6 +175,10 @@
                                 Hic iusto explicabo odit, esse officia dicta dolorum autem corrupti facere harum fuga asperiores, 
                                 odio consequatur labore quasi expedita sunt distinctio consequuntur?
                             </p>
+                        </div>
+                        <div class="box-contact">
+                            <p class="hotline">Hotline: 0896 40 05 67</p>
+                            <p class="mail"><i class="fas fa-envelope"></i> support@1water.com</p>
                         </div>
                         <div class="block-social">
                             <div class="item-social">
@@ -202,6 +196,7 @@
                 </div>
                 <div id="block-btn-scroll" class="primary-background-btn"><i class="fas fa-chevron-up"></i></div>
                 <a id="block-btn-call" href="tel:0907989977"><i class="fas fa-phone-volume"></i></a>
+
             </section>
             
         </div>

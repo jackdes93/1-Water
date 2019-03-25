@@ -10,12 +10,7 @@ window.onload = function() {
          
     });
 
-    select_box.addEventListener("click", function() {
-        var list_select = document.getElementById('list-select');        
-        console.log(list_select.classList);
-        
-        
-    });
+   
     
     window.addEventListener('scroll', function() {
         var position_animation = window.scrollY;
